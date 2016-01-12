@@ -1,10 +1,18 @@
 {
-    "name": "node-first", 
+    "name": "node-one", 
     "version": "0.0.1", 
     "scripts": { 
 	"start": "node server.js" 
     }, 
     "dependencies": { 
-	"express": "~4.13.1" 
+	"express": "~4.13.1",
+	"ejs": "0.8.3",
+	"mu2": "0.5.*",	
+	"mu2express": "0.0.*"
+    }, 
+    "devDependencies": {
+	"mocha": "1.7.0", 
+	"should": "1.2.1", 
+	"supertest": "0.4.0"
     }
 }
